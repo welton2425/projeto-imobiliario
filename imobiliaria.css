@@ -17,3 +17,27 @@ header h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
+.arthur div {
+    padding: 400px;
+    background-image: url(img/mansão.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex;
+
+}
+.arthur button{
+
+    width: 150px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.421);
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+   
+
+}
+
