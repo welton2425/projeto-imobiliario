@@ -1,100 +1,111 @@
+/*inicio do cabeçalho*/
 header {
-    padding: 20px;
-    background-color: #57bbae;
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    align-items: center;
+    padding: 20px;  /*responsavel pelo preenchimento e tamanho */
+    background:  linear-gradient(354deg, rgb(2, 102, 65) 0%, rgb(11, 194, 145) 35%, rgb(3, 88, 60) 100%);/*cor de fundo */
+    display: flex; /*tornando os intens flex lado lado */
+    justify-content: center; /*justificando o conteudo ao centro */
+    gap: 150px; /*dando espaços entre os itens */
+    align-items: center;/*responssavel por alinha  os itens  */
 }
 
 header div img {
-    width: 80px;
+    width: 80px; /*tamanho da imagem */
 }
 
 header h1 {
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0); /*cor da fonte */
+    font-size: 50px; /*tamanho da fonte */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*tipo de fonte*/
 
 }
 
 
 
-.listra-menu ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.listra-menu ul { /*alteção da listra nao ordenada / elemento pai */
+    display: flex;/* tornando as (LI) flex lado a lado */
+    justify-content: center; /*deixando elas centralizada*/
+    gap: 20px;/* espaço entre as (LI)*/
  }
- .listra-menu ul li {
-    list-style: none;
+ .listra-menu ul li { /*alteração da listra (LI) elemento filho */
+    list-style: none; /*removento o estido da listra aplicada por padrão*/
  }
  
  .listra-menu ul li a {
-     text-decoration: none;
-     color: rgb(0, 0, 0);
-     font-size: 20px;
+     text-decoration: none;/*remoção do simbolo decoração de texto*/
+     color: rgb(0, 0, 0); /*cor  de texto */
+     font-size: 20px;/*tamanho da fonte */
  }
+/*fim do cabeçalho */
 
 
-
-
+/*inicio da primeira sessão */
 .arthur div {
-    padding: 400px;
-    background-image: url(img/mansão.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    display: flex;
+    padding: 250px;/* responssavel preenchimento da sessão */
+    background-image: url(img/mansão.jpg); /*up img */
+    background-position: center;/*posição da imagem */
+    background-size: cover; /* preenchimento da imagem */
+    background-repeat: no-repeat;/*desabitando repetições da imagem */
+    justify-content: center; /* justificando os conteudo ao centro */
+    display: flex; /*tornando os conteudo flex lado a lado */
+   
 
 }
 .arthur button{
 
-    width: 150px;
-    height: 30px;
-    background-color: rgba(0, 0, 0, 0.521);
-    color: rgb(11, 204, 211);
-    text-align: center;
-    font-size: 20px;
-    border-radius: 25px;
+    width: 150px;/*tamanho do botão*/
+    height: 30px; /*largura do botão*/
+    background-color: rgba(0, 0, 0, 0.521);/*cor de fundo do botao */
+    color: rgb(11, 204, 211);/*cor da letra do botao */
+    text-align: center;/*centralizando o bontao ao centro */
+    font-size: 20px;/*tamanho da letra do botão */
+    border-radius: 25px;/* borda do botão*/
    
 
 }
+/*fim da prieira sessão */
+
+
+
+/*inicio da segunda sessão */
 .manu {
-    background-color: #f0c69c;
-    padding: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    flex-direction: column;
+    background: linear-gradient(354deg, rgb(1, 90, 21) 0%, rgba(10,137,103,1) 35%, rgb(1, 97, 65) 100%); /*cor de fundo */
+    padding: 150px;/*responssavel pelo preenchimento da sessão*/
+    display: flex;/*tornando os intens flex lado a lado */
+    justify-content: center;/*justificando os conteudo ao centro */
+    align-items: center;/*responssavel por alinha itens ao centro */
+    gap: 30px;/*espaços entre os itens */
+    flex-direction: column;/*deixando os inconens flexivel*/
 }
 
 .manu i {
-    font-size: 50px;
-    color: rgb(0, 0, 0);
+    font-size: 50px;/*tamanho do iconen */
+    color: rgb(0, 0, 0);/* cor do iconen */
 }
 
 .manu p {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
+    color: rgb(0, 0, 0);/*cor do paragrafo*/
+    font-size: 30px;/*tamanho da fonte */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*tipo da fonte */
 }
 
 .manu p span {
-    color: rgb(10, 79, 230);
+    color: rgb(245, 247, 252);/*cor do span */
     
 }
+/*fim da segunda sessão*/
 
+
+/*inicio da terceira sessão*/
 .enzo {
-    padding: 150px;
-    background-image: url(img/manu.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    justify-content: center;
-    display: flex;
+    padding: 150px;/*responssavel pelo preenchimento */
+    background-image: url(img/manu.jpg);/* up img*/
+    background-position: center; /*posição da imagem */
+    background-size: cover;/*preenchimento da imagem */
+    background-repeat: no-repeat;/*desabilitando repetição da imagem */
+    background-attachment: fixed; /*fixação da imagem */
+    justify-content: center;    /*justifando os conteudo ao centro */
+    display: flex; /*tornando os conteudo flex lado a lado */
 
 }
 .enzo button {
@@ -104,75 +115,85 @@ header h1 {
     background-color: rgba(0, 0, 0, 0.555);
     color: aqua;
 }
+/*fim da terceira sessão */
 
+/*inicio da quarta sessão */
 .sabrina {
-  padding: 150px;
-  background-color: #d1284f;
-  display: flex;
-  display: flex;
-  justify-content: space-evenly;
+  padding: 150px;/*responsavel pelo preenchimento*/
+  background:   linear-gradient(354deg, rgba(0,115,74,1) 0%, rgba(62,193,47,1) 35%, rgba(2,71,48,1) 100%);;/*cor de fundo */
+  display: flex;/*tornando os conteudo flex lado a lado */
+ 
+  justify-content: space-evenly; /*justifando os conteudo ao centro */
 }
 .sabrina div {
-    width: 300px;
-    height: 300px;
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    padding: 15px;
+    width: 300px;/*tamanho da caixa / div */
+    height: 300px;/*largura da caixa / div */
+    background-color: black;/*cor da caixa / div */
+    color: aliceblue;/*cor da fonte */
+    text-align: center;/*tornando os conteudo flex lado a lado */
+    padding: 15px;/*responssavel pelo preenchimento */
 
 }
+/*fim da quarta sessão */
+
+
+/*inicio da quinta sessão */
 .welton{
-    padding: 150px;
-    background-color: #d1284f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+    padding: 150px; /*responsavel pelo preenchimento*/
+    background: linear-gradient(354deg, rgba(0,115,74,1) 0%, rgba(62,193,47,1) 35%, rgb(5, 88, 61) 100%); /*cor de fundo */
+    display: flex; /*tornando os conteudo flex lado a lado */
+    justify-content: center;/*justifando os conteudo ao centro */
+    align-items: center;/*justifando os conteudo ao centro */
+    gap: 50px;/*espaços entre os itens */
 }
 
 .welton iframe {
-    border-radius: 40px;
+    border-radius: 40px; /*borda do botão */
 }
 .welton p {
-font-size: 20px;
-font-weight: 700;
-    line-height: 25px;
+font-size: 25px;/*tamanho da fonte */
+font-weight: 700;/*largura */
+    line-height: 25px; /*alinha texto*/
  }
 
 footer {
-    padding: 20px;
-    background-color: #000000;
-    text-align: center;
+    padding: 20px;/*responssavel pelo preenchimento */
+    background-color: #0d192b ;
+    text-align: center;/*tornando os conteudo flex lado a lado */
+}
+
+footer img{
+   width: 30px;/*tamanho da imagem */
 }
 
 footer p {
-    color: rgb(221, 230, 238);
-    font-size: 30px;
+    color: rgb(221, 230, 238);/*cor do texto*/
+    font-size: 30px;/*tamanho do texto */
 }
 footer i {
-    color: white;
-    font-size: 40px;
+    color: white;/*cor do texto */
+    font-size: 40px;/*tamanho do texto*/
     
 }
 
 .div01 {
-    border-radius: 40px;
+    border-radius: 40px;/*borda da /div */
 }
 
 .div02 {
-    background-image: url(img/projeto-casa-modera-Silvia-W-Abreu-02-300x300.webp);
-    background-size: cover;
-    border-radius: 40px;
+    background-image: url(img/projeto-casa-modera-Silvia-W-Abreu-02-300x300.webp);/*up img*/
+    background-size: cover;/*preenchimento da imagem */
+    border-radius: 40px;/*tamanho da borda / div */
 }
 .div03 img  {
-    width: 120px;
-    height: 120px;
+    width: 120px;/*tamanho da imagem */
+    height: 120px;/*largura da imagem*/
      
    
 }
 .div03 p {
-    font-size: 20px;
+    font-size: 20px;/*tamanho do paragrafo */
 }
 .div03 {
-    border-radius: 40px;
+    border-radius: 40px; /*tamanho da borda / div*/
 }
