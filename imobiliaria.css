@@ -22,7 +22,7 @@ header div img {
 }
 
 header h1 {
-    color: rgb(0, 0, 0); /*cor da fonte */
+    color: rgb(248, 240, 240); /*cor da fonte */
     font-size: 50px; /*tamanho da fonte */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*tipo de fonte*/
 
@@ -41,7 +41,7 @@ header h1 {
  
  .listra-menu ul li a {
      text-decoration: none;/*remoção do simbolo decoração de texto*/
-     color: rgb(0, 0, 0); /*cor  de texto */
+     color: rgb(250, 249, 249); /*cor  de texto */
      font-size: 20px;/*tamanho da fonte */
  }
 /*fim do cabeçalho */
@@ -64,7 +64,7 @@ header h1 {
     width: 150px;/*tamanho do botão*/
     height: 30px; /*largura do botão*/
     background-color: rgba(0, 0, 0, 0.521);/*cor de fundo do botao */
-    color: rgb(11, 204, 211);/*cor da letra do botao */
+    color: rgb(235, 244, 245);/*cor da letra do botao */
     text-align: center;/*centralizando o bontao ao centro */
     font-size: 20px;/*tamanho da letra do botão */
     border-radius: 25px;/* borda do botão*/
@@ -209,3 +209,42 @@ footer a {
 .div03 {
     border-radius: 40px; /*tamanho da borda / div*/
 }
+/*------------------------------------------------------------------------------------------*/
+
+/*Pagina 2*/
+
+.sessao-cabecalho{
+    background-image: url(img/fundopage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .imoveis{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box;
+ }
+
+.imoveis2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box;
+}
+.imoveis i {
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+
+
+
