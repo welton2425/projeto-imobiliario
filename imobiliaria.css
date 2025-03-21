@@ -223,27 +223,11 @@ footer a {
     justify-content: center;
     align-items: center;
 }
- .imoveis{
-    padding: 20px;
+ 
+.imoveis {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    box-sizing: border-box;
- }
-
-.imoveis2 {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    box-sizing: border-box;
 }
-.imoveis i {
-    display: flex;
-    justify-content: center;
-  
-
-}
+   
 
 
 
