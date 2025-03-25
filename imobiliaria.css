@@ -37,6 +37,15 @@ header h1 {
  }
  .listra-menu ul li { /*alteração da listra (LI) elemento filho */
     list-style: none; /*removento o estido da listra aplicada por padrão*/
+
+ }
+
+
+ .listra-menu ul li a:hover {
+    
+    transition: 0,10s;
+    color: black;
+    
  }
  
  .listra-menu ul li a {
@@ -70,6 +79,11 @@ header h1 {
     border-radius: 25px;/* borda do botão*/
    
 
+}
+
+.arthur button:hover {
+    background-color: rgb(6, 165, 41);
+    transition: 0.8s;
 }
 /*fim da prieira sessão */
 
@@ -182,6 +196,20 @@ footer a {
 }
 
 
+footer a:hover {
+    color: green;
+    transition: 0,8s;
+}
+footer i:hover {
+    color: green;
+}
+footer p:hover {
+    color: green;
+    
+ 
+}
+
+
 
 .div01 {
     border-radius: 40px;/*borda da /div */
@@ -223,9 +251,72 @@ footer a {
     justify-content: center;
     align-items: center;
 }
+
+.section-pg2 div h2 {
+    display: flex;
+    justify-content: center;
+    
+    
+   
+}
  
 .imoveis {
     display: flex;
+}
+
+.section-pg2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 130px;
+    background-color: rgb(32, 198, 201);
+}
+
+.img-caixa {
+    width: 100px;
+    
+}
+
+.div-pai div {
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;/*responssavel pela sombra da caixa ( 1 valor cuida da sombra lateral,
+    2 valor da sombra inferior , 3 valor peso da cor da sombra )*/
+}
+
+
+
+
+.div-pai div:hover { /* */
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
+}
+
+
+.paragarafo-div {
+    color: rgb(255, 252, 252);
+    font-size: 27px;
+    font-weight: 800;
+    margin: 15px;
+    /*Está cuidando de todos os lados da margem*/
+}
+
+.div-pai div img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.div-pai {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.fa-star {
+    color: rgb(228, 187, 5);
 }
    
 
