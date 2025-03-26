@@ -53,6 +53,13 @@ header h1 {
      color: rgb(250, 249, 249); /*cor  de texto */
      font-size: 20px;/*tamanho da fonte */
  }
+ .users a i  {
+    color: aliceblue;
+   
+ 
+ }
+
+
 /*fim do cabeçalho */
 
 
@@ -98,11 +105,16 @@ header h1 {
     align-items: center;/*responssavel por alinha itens ao centro */
     gap: 30px;/*espaços entre os itens */
     flex-direction: column;/*deixando os inconens flexivel*/
+    
 }
 
 .manu i {
     font-size: 50px;/*tamanho do iconen */
     color: rgb(255, 253, 253);/* cor do iconen */
+    box-shadow: 10px 10px 20px black;
+}
+.manu img {
+    box-shadow: 10px 10px 30px black;
 }
 
 .manu p {
@@ -158,6 +170,7 @@ header h1 {
 
 .welton iframe {
     border-radius: 40px; /*borda do botão */
+    box-shadow: 10px 10px 20px black;
 }
 .welton p {
 font-size: 25px;/*tamanho da fonte */
@@ -213,6 +226,8 @@ footer p:hover {
 
 .div01 {
     border-radius: 40px;/*borda da /div */
+    box-shadow: 10px 10px 20px black;
+
     
     
 }
@@ -224,6 +239,8 @@ footer p:hover {
     background-image: url(img/projeto-casa-modera-Silvia-W-Abreu-02-300x300.webp);/*up img*/
     background-size: cover;/*preenchimento da imagem */
     border-radius: 40px;/*tamanho da borda / div */
+    box-shadow: 10px 10px 20px black;
+
 }
 .div03 img  {
     width: 120px;/*tamanho da imagem */
@@ -236,6 +253,9 @@ footer p:hover {
 }
 .div03 {
     border-radius: 40px; /*tamanho da borda / div*/
+    box-shadow: 10px 10px 20px black;
+    
+
 }
 /*------------------------------------------------------------------------------------------*/
 
@@ -255,7 +275,8 @@ footer p:hover {
 .section-pg2 div h2 {
     display: flex;
     justify-content: center;
-    
+    color: aliceblue;
+    margin-bottom: 50PX;
     
    
 }
@@ -268,10 +289,10 @@ footer p:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
     padding: 130px;
-    background-color: rgb(32, 198, 201);
+    background:  linear-gradient(354deg, rgb(2, 102, 65) 0%, rgb(11, 194, 145) 35%, rgb(3, 88, 60) 100%);
 }
+
 
 .img-caixa {
     width: 100px;
@@ -314,11 +335,15 @@ footer p:hover {
     justify-content: space-evenly;
     gap: 30px;
 }
+.div-pai div i {
+  
+}
 
 .fa-star {
     color: rgb(228, 187, 5);
-}
+} 
    
+
 
 
 

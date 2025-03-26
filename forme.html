@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>forme</title>
+    <link rel="stylesheet" href="forme.css">
 </head>
 <body>
+
+
+<div class="div-form">
+
+
     <form action="">
+        <label for="">NAME</label>
+        <input type="name" class="input-name"
+        id="input-name" placeholder="digite seu nome "> <br>
 
         <label for="input-email">EMAIL</label>
         <input type="email" class="input-email"
-        id="input-email" name="input-email"> <br>
+        id="input-email " placeholder="insira seu e-mail "> <br>
 
         <label for="input-password">SENHA</label>
         <input type="password" class="input-password"
-        id="input-password" name="input-password"> <br>
+        id="input-password" placeholder="digite sua senha "> <br>
 
-        <input type=" submit " value="cadastre-se">
+        <label for="">CPF</label>
+        <input type="number" class="input-cpf"
+        id="input-cpf" placeholder="digite seu cpf "> <br>
+
+
+        
+
+        
+
+        <input type="submit"value="cadastre-se">
 
     </form>
+    <!-- LABEL => Usada como etiqueta para formulario (nome da caixa ) peça fundamental para construção
+      de formulario. 
+      (FOR "") que e vinculado  com ele servira para especificar a qual input ele pertence/conversa.  -->
+
+
+       <!-- INPUT => utilizado para especificar o tipo de entrada dainformação 
+        (text, Email, password, data etc...)sempre lembrar que o input precisa 
+        ter um ID, CLASS e NAME para facilitar em ações futuras .   -->
+
+
+<!-- input type"subit" => utilizado como botão , e o type "submit" faz uma 
+ ação de envio das informções que se encontra dentro do formulario, sendo essecial para formulario.
+ Alterando o "value" é possivel trocar o nome de visualizações do botão.  -->
+</div>
 
 
 </body>

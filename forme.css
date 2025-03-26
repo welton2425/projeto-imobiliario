@@ -1,0 +1,13 @@
+.div-form {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(354deg, rgb(2, 102, 65) 0%, rgb(11, 194, 145) 35%, rgb(3, 88, 60) 100%);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+
+   
+
+}
+
