@@ -1,4 +1,4 @@
-
+/*estilização global*/
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +6,9 @@
     scroll-behavior: smooth;/*scrool suave nas tramnsições*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+
 
 /*inicio do cabeçalho*/
 header {
