@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*estilização global*/
 *{
     margin: 0;
@@ -76,10 +77,60 @@ header h1 {
     justify-content: center; /* justificando os conteudo ao centro */
     display: flex; /*tornando os conteudo flex lado a lado */
    
+=======
+/*estilizando o heder*/
+header {
+    padding: 20px;
+    /*responsavel pelo preenchimento e tamanho */
+    background-color: #050000;
+   background:  linear-gradient(90deg, #0c5149 0%, #07f9a2 35%, rgba(0,212,255,1) 100%);
+    /* cor de fundo */
+    display: flex;
+    /*tornando os intens flex lado a lado */
+    justify-content: center;
+    /*justificando o conteudo ao centro*/
+    gap: 25px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsavel por alinha os intens */
+}
+
+header img {
+
+    width: 100px;
+    /*tamanho da imagem */
 
 }
-.arthur button{
 
+header h1 {
+    color: rgb(241, 206, 3);
+    /*cor da letra */
+    font-size: 50px;
+    /*tamanho da letra */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*tipo da fonte*/
+
+}
+
+.listra-menu ul {
+    /*ALTERAÇAO DA LISTRA NAO ORDENADA (elemnto pai )*/
+    display: flex;
+    /*TORNANDO AS ( LI )FLEX/ LADO A LADO */
+    justify-content: center;
+    /*DEIXANDO ELAS CENTRALIZADAS */
+    gap: 20px;
+    /*ESPAÇO ENTRE AS ( LI ) */
+}
+
+.listra-menu ul li {
+    /* alteração da listra (li)  (elemnto filho)*/
+    list-style: none;
+    /*removendo o estilo de listra aplicada por padrão*/
+>>>>>>> Stashed changes
+
+}
+
+<<<<<<< Updated upstream
     width: 150px;/*tamanho do botão*/
     height: 30px; /*largura do botão*/
     background-color: rgba(0, 0, 0, 0.521);/*cor de fundo do botao */
@@ -202,10 +253,75 @@ footer i {
     font-size: 40px;/*tamanho do texto*/
   
     
+=======
+.listra-menu ul li a {
+
+    text-decoration: none;
+    /*remoçao do sumbliado (decoração de texto )*/
+    color: rgb(207, 204, 4);
+    /*cor de texto */
+    font-size: 20px;
+    /*tamanho do texto*/
+}
+
+/* fim do cabeçaalho*/
+
+
+
+
+/*inicio da seção*/
+/*inicio da primeira sessão*/
+
+.arthur {
+    padding: 160px;
+    /*responsa pelo preenchimento */
+    background-color: #010a0c;
+    /*cor de fundo */
+    display: flex;
+    /*tornando os intens flex lado a lado */
+    justify-content: center;
+    /*justificando os conteudo ao centro */
+    align-items: center;
+    /*responsavel por alinha os itens */
+    gap: 60px;
+}
+
+.arthur img {
+    width: 400px;
+    /*largura da imagem*/
+    height: 300px;
+    /*autura da imagem*/
+}
+
+.arthur p {
+    color: rgb(217, 231, 240);
+    /*cor da letra */
+    font-size: 30px;
+    /*tamanho da letra */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*tipo da fonte */
+}
+
+.arthur span {
+    font-size: 50px;
+    /*tamanho da letra */
+    color: rgb(216, 219, 4);
+    /*cor da letra */
+
+
 }
 
 
 
+.teste02 {
+    width: 300px;
+    height: 300px;
+>>>>>>> Stashed changes
+}
+
+
+
+<<<<<<< Updated upstream
 footer a {
     color: aliceblue;
     text-decoration: none;
@@ -346,8 +462,188 @@ footer p:hover {
     color: rgb(228, 187, 5);
 } 
    
+=======
+
+
+
+.arthur a {
+    text-decoration: none;
+}
+
+/*fim da primeira sessão*/
+
+
+/*inicio da segunda sessão*/
+.manu {
+    background-color: #011414;
+    /*cor de fundo */
+    padding: 160px;
+    /*responsavel pelo preenchimento*/
+    display: flex;
+    /*tornando os itens flex lado a lado */
+    justify-content: center;
+    /*justifando os conteudo ao centro */
+    align-items: center;
+    /*responssavel por alinha os itens */
+    gap: 30px;
+    /*espaço entre os elementos */
+    flex-direction: column;
+    flex-direction: column;/*deixando os itens flexivel*/
+
+}
+
+.manu i {
+    font-size: 50px;
+    font-size: 50px; /*tamanho dos iconens*/
+    color: rgb(238, 195, 6);
+    /*cor da letra */
+
+}
+
+.manu p {
+    color: rgb(219, 205, 9);
+    /*cor da letra */
+    font-size: 30px;
+    /*tamanho da letra */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*fonte do texto*/
+}
+
+/*fim da segunda sessão*/
+>>>>>>> Stashed changes
 
 
 
 
+<<<<<<< Updated upstream
 
+=======
+/*inicio da terceira sessão*/
+.enzo {
+    padding: 150px;
+    /*responssavel pelo preenchimento */
+    background-image: url(img/sessão3.jpg);
+    /*up img*/
+    background-position: center;
+    /*posição da imagem */
+    background-size: cover;
+    /*preenchimento da imagem */
+    background-repeat: no-repeat;
+    /*desabilitando repetição da imagem */
+    background-attachment: fixed;
+    /*fixação da imagem */
+    justify-content: center;
+    /*justifando os conteudo ao centro */
+    display: flex;
+    /*tornando os conteudo flex lado a lado */
+    /*deixando as div lado a lado */
+
+}
+
+/*final da terceira sessão */
+
+/* inicio da quarta sessão */
+.sabrina {
+    /*estilizando as div/caixas (total 3)*/
+    padding: 150px;
+    /*responssavel pelo preenchimento */
+    background-color: rgb(0, 0, 0);
+    /*cor do fundo */
+    display: flex;
+    /*tornando os conteudo flex lado a lado */
+    /*deixando as div lado a lado */
+    gap: 10px;
+    /*espaço dos conteudo */
+    /*espaçamento entre as caixas */
+    justify-content: space-evenly;
+    /*justificando o  posicionamento das caixas  */
+
+}
+
+.sabrina div {
+    width: 300px;
+    /*largura da caixas*/
+    height: 300px;
+    /*altura das caixas */
+    background-color: rgb(23, 27, 27);
+    /*cor de fundo das caixas */
+    color: aliceblue;
+    /*cor das letras */
+    text-align: center;
+    /*estou alinhando o texto ao centro */
+    padding: 15px;
+    /*margem interna das caixas */
+}
+
+
+
+
+.enzo button {
+    padding: 20px;  /*responssavel pelo preenchimento */
+    width: 150px;
+    background-color: rgba(0, 9, 12, 0.993); /*cor de fundo das caixas */
+    color: rgb(243, 208, 9);/*cor da letra */
+    border-radius: 50px;/*borda do botao */
+
+
+}
+
+
+footer {
+    padding: 20px;/*responssavel pelo preenchimento */
+    background-color: black;
+    /*cor de fundo */
+    text-align: center;
+    /*aliamento do texto e icone*/
+}
+
+footer p {
+    color: rgb(236, 221, 5);
+    /*cor da letra */
+    font-size: 25px;
+    /* tamanho da letra */
+
+}
+
+footer i {
+    color: rgb(245, 229, 10);
+    /*cor do icone*/
+    font-size: 20px;
+    /*tamanho do icone*/
+    
+}
+
+ .div01 i {
+  color: rgb(224, 228, 11);/*cor do iconen */
+ }
+
+ .div01 p {
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+ }
+
+
+ .div02 {/*estamos alterando a segunda caixa/div*/
+    background-image: url(img/Mortal_kombat_logo.png);/*inserindo img*/
+    background-size: cover;/*aplicando o preenchimento total */
+ }
+
+ .div03 img {
+    width: 120px;
+    height: 120px;
+ }
+
+ .div03 p  {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 700;
+    line-height: 25px;
+
+ }
+
+
+
+
+ 
+>>>>>>> Stashed changes
