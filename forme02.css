@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    /*scrool suave nas tramnsições*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+body {
+    background-color: #5f925e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.div-form02 {
+    background-color:  #02703f;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(7, 0, 0);
+    width: 350px;
+    height: 750px;
+}
+img {
+    width: 60px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 5px;
+    /*Margem inferior*/
+    font-weight: bold; /*Largura da fonte*/
+    color: rgb(253, 251, 251);
+    
+}
+input:hover {
+    background-color: #c2c9c2ef;/*cor de fundo da caixa input*/
+    transition: 0,9s; /*transição*/
+}
+
+h2,p {
+    margin-bottom: 15px;/*dando espaço dos paragrafos */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*fonte da letra */
+   font-size: 20px; /*tamanho da letra */
+    text-align: center; /*centralizando texto*/
+    color: white;/*cor do H2 e do paragrafo*/
+}
+.ferraz {
+    padding: 10px; /*Espaçamento interno*/
+    margin-bottom: 15px; /*Espaçamento inferior dos input*/
+    font-size: 16px; /*tamanho da letra*/
+    border-radius: 5px; /*Bordas arredondadas*/
+    border: 2px solid #2efd05; /*Inserindo Bordas nos Input*/
+}
+
+.btn-form02 {
+    background-color: #0c4e0c; /*cor de fundo do btn*/
+    color: white; /*cor da letra*/
+    padding: 10px; /*Espaçamento interno*/
+    border: none; /*bordar = nenhuma/sem borda*/
+    border-radius: 5px;/*Arredondamento do btn*/
+    font-size: 20px; /*Tamanho da letra*/
+    cursor: pointer; /*Tipo de cursor do mouse*/
+}
+.btn-form02:hover{
+    background-color: #000000; /*Background ao passar o mouse*/
+    transition: 0.8s; /*Transição*/
+} 
+

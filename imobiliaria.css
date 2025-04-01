@@ -1,10 +1,10 @@
-<<<<<<< Updated upstream
 /*estilização global*/
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
-    scroll-behavior: smooth;/*scrool suave nas tramnsições*/
+    scroll-behavior: smooth;
+    /*scrool suave nas tramnsições*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -13,55 +13,76 @@
 
 /*inicio do cabeçalho*/
 header {
-    padding: 20px;  /*responsavel pelo preenchimento e tamanho */
-    background:  linear-gradient(354deg, rgb(2, 102, 65) 0%, rgb(11, 194, 145) 35%, rgb(3, 88, 60) 100%);/*cor de fundo */
-    display: flex; /*tornando os intens flex lado lado */
-    justify-content: center; /*justificando o conteudo ao centro */
-    gap: 150px; /*dando espaços entre os itens */
-    align-items: center;/*responssavel por alinha  os itens  */
+    padding: 20px;
+    /*responsavel pelo preenchimento e tamanho */
+    background: linear-gradient(354deg, rgb(2, 102, 65) 0%, rgb(11, 194, 145) 35%, rgb(3, 88, 60) 100%);
+    /*cor de fundo */
+    display: flex;
+    /*tornando os intens flex lado lado */
+    justify-content: center;
+    /*justificando o conteudo ao centro */
+    gap: 150px;
+    /*dando espaços entre os itens */
+    align-items: center;
+    /*responssavel por alinha  os itens  */
 }
 
 header div img {
-    width: 80px; /*tamanho da imagem */
+    width: 80px;
+    /*tamanho da imagem */
 }
 
 header h1 {
-    color: rgb(248, 240, 240); /*cor da fonte */
-    font-size: 50px; /*tamanho da fonte */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*tipo de fonte*/
+    color: rgb(248, 240, 240);
+    /*cor da fonte */
+    font-size: 50px;
+    /*tamanho da fonte */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*tipo de fonte*/
 
 }
 
 
 
-.listra-menu ul { /*alteção da listra nao ordenada / elemento pai */
-    display: flex;/* tornando as (LI) flex lado a lado */
-    justify-content: center; /*deixando elas centralizada*/
-    gap: 20px;/* espaço entre as (LI)*/
- }
- .listra-menu ul li { /*alteração da listra (LI) elemento filho */
-    list-style: none; /*removento o estido da listra aplicada por padrão*/
+.listra-menu ul {
+    /*alteção da listra nao ordenada / elemento pai */
+    display: flex;
+    /* tornando as (LI) flex lado a lado */
+    justify-content: center;
+    /*deixando elas centralizada*/
+    gap: 20px;
+    /* espaço entre as (LI)*/
+}
 
- }
+.listra-menu ul li {
+    /*alteração da listra (LI) elemento filho */
+    list-style: none;
+    /*removento o estido da listra aplicada por padrão*/
+
+}
 
 
- .listra-menu ul li a:hover {
-    
-    transition: 0,10s;
+.listra-menu ul li a:hover {
+
+    transition: 0, 10s;
     color: black;
-    
- }
- 
- .listra-menu ul li a {
-     text-decoration: none;/*remoção do simbolo decoração de texto*/
-     color: rgb(250, 249, 249); /*cor  de texto */
-     font-size: 20px;/*tamanho da fonte */
- }
- .users a i  {
+
+}
+
+.listra-menu ul li a {
+    text-decoration: none;
+    /*remoção do simbolo decoração de texto*/
+    color: rgb(250, 249, 249);
+    /*cor  de texto */
+    font-size: 20px;
+    /*tamanho da fonte */
+}
+
+.users a i {
     color: aliceblue;
-   
- 
- }
+
+
+}
 
 
 /*fim do cabeçalho */
@@ -69,76 +90,40 @@ header h1 {
 
 /*inicio da primeira sessão */
 .arthur div {
-    padding: 250px;/* responssavel preenchimento da sessão */
-    background-image: url(img/mansão.jpg); /*up img */
-    background-position: center;/*posição da imagem */
-    background-size: cover; /* preenchimento da imagem */
-    background-repeat: no-repeat;/*desabitando repetições da imagem */
-    justify-content: center; /* justificando os conteudo ao centro */
-    display: flex; /*tornando os conteudo flex lado a lado */
-   
-=======
-/*estilizando o heder*/
-header {
-    padding: 20px;
-    /*responsavel pelo preenchimento e tamanho */
-    background-color: #050000;
-   background:  linear-gradient(90deg, #0c5149 0%, #07f9a2 35%, rgba(0,212,255,1) 100%);
-    /* cor de fundo */
-    display: flex;
-    /*tornando os intens flex lado a lado */
+    padding: 250px;
+    /* responssavel preenchimento da sessão */
+    background-image: url(img/mansão.jpg);
+    /*up img */
+    background-position: center;
+    /*posição da imagem */
+    background-size: cover;
+    /* preenchimento da imagem */
+    background-repeat: no-repeat;
+    /*desabitando repetições da imagem */
     justify-content: center;
-    /*justificando o conteudo ao centro*/
-    gap: 25px;
-    /*espaço entre os elementos*/
-    align-items: center;
-    /*responsavel por alinha os intens */
-}
-
-header img {
-
-    width: 100px;
-    /*tamanho da imagem */
-
-}
-
-header h1 {
-    color: rgb(241, 206, 3);
-    /*cor da letra */
-    font-size: 50px;
-    /*tamanho da letra */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*tipo da fonte*/
-
-}
-
-.listra-menu ul {
-    /*ALTERAÇAO DA LISTRA NAO ORDENADA (elemnto pai )*/
+    /* justificando os conteudo ao centro */
     display: flex;
-    /*TORNANDO AS ( LI )FLEX/ LADO A LADO */
-    justify-content: center;
-    /*DEIXANDO ELAS CENTRALIZADAS */
-    gap: 20px;
-    /*ESPAÇO ENTRE AS ( LI ) */
-}
+    /*tornando os conteudo flex lado a lado */
 
-.listra-menu ul li {
-    /* alteração da listra (li)  (elemnto filho)*/
-    list-style: none;
-    /*removendo o estilo de listra aplicada por padrão*/
->>>>>>> Stashed changes
 
 }
 
-<<<<<<< Updated upstream
-    width: 150px;/*tamanho do botão*/
-    height: 30px; /*largura do botão*/
-    background-color: rgba(0, 0, 0, 0.521);/*cor de fundo do botao */
-    color: rgb(235, 244, 245);/*cor da letra do botao */
-    text-align: center;/*centralizando o bontao ao centro */
-    font-size: 20px;/*tamanho da letra do botão */
-    border-radius: 25px;/* borda do botão*/
-   
+.arthur button {
+    width: 150px;
+    /*tamanho do botão*/
+    height: 30px;
+    /*largura do botão*/
+    background-color: rgba(0, 0, 0, 0.521);
+    /*cor de fundo do botao */
+    color: rgb(235, 244, 245);
+    /*cor da letra do botao */
+    text-align: center;
+    /*centralizando o bontao ao centro */
+    font-size: 20px;
+    /*tamanho da letra do botão */
+    border-radius: 25px;
+    /* borda do botão*/
+
 
 }
 
@@ -146,183 +131,166 @@ header h1 {
     background-color: rgb(6, 165, 41);
     transition: 0.8s;
 }
+
 /*fim da prieira sessão */
 
 
 
 /*inicio da segunda sessão */
 .manu {
-    background: linear-gradient(354deg, rgb(1, 90, 21) 0%, rgba(10,137,103,1) 35%, rgb(1, 97, 65) 100%); /*cor de fundo */
-    padding: 150px;/*responssavel pelo preenchimento da sessão*/
-    display: flex;/*tornando os intens flex lado a lado */
-    justify-content: center;/*justificando os conteudo ao centro */
-    align-items: center;/*responssavel por alinha itens ao centro */
-    gap: 30px;/*espaços entre os itens */
-    flex-direction: column;/*deixando os inconens flexivel*/
-    
+    background: linear-gradient(354deg, rgb(1, 90, 21) 0%, rgba(10, 137, 103, 1) 35%, rgb(1, 97, 65) 100%);
+    /*cor de fundo */
+    padding: 150px;
+    /*responssavel pelo preenchimento da sessão*/
+    display: flex;
+    /*tornando os intens flex lado a lado */
+    justify-content: center;
+    /*justificando os conteudo ao centro */
+    align-items: center;
+    /*responssavel por alinha itens ao centro */
+    gap: 30px;
+    /*espaços entre os itens */
+    flex-direction: column;
+    /*deixando os inconens flexivel*/
+
 }
 
 .manu i {
-    font-size: 50px;/*tamanho do iconen */
-    color: rgb(255, 253, 253);/* cor do iconen */
+    font-size: 50px;
+    /*tamanho do iconen */
+    color: rgb(255, 253, 253);
+    /* cor do iconen */
     box-shadow: 10px 10px 20px black;
 }
+
 .manu img {
     box-shadow: 10px 10px 30px black;
 }
 
 .manu p {
-    color: rgb(255, 255, 255);/*cor do paragrafo*/
-    font-size: 30px;/*tamanho da fonte */
+    color: rgb(255, 255, 255);
+    /*cor do paragrafo*/
+    font-size: 30px;
+    /*tamanho da fonte */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*tipo da fonte */
 }
 
 .manu p span {
-    color: rgb(233, 218, 4);/*cor do span */
+    color: rgb(233, 218, 4);
+    /*cor do span */
     font-size: 40px;
-    
+
 }
+
 /*fim da segunda sessão*/
 
 
 /*inicio da terceira sessão*/
 
 
-  
+
 /*fim da terceira sessão */
 
 /*inicio da quarta sessão */
 .sabrina {
-  padding: 150px;/*responsavel pelo preenchimento*/
-  background:   linear-gradient(354deg, rgba(0,115,74,1) 0%, rgba(62,193,47,1) 35%, rgba(2,71,48,1) 100%);;/*cor de fundo */
-  display: flex;/*tornando os conteudo flex lado a lado */
- 
-  justify-content: space-evenly; /*justifando os conteudo ao centro */
+    padding: 150px;
+    /*responsavel pelo preenchimento*/
+    background: linear-gradient(354deg, rgba(0, 115, 74, 1) 0%, rgba(62, 193, 47, 1) 35%, rgba(2, 71, 48, 1) 100%);
+    ;
+    /*cor de fundo */
+    display: flex;
+    /*tornando os conteudo flex lado a lado */
+
+    justify-content: space-evenly;
+    /*justifando os conteudo ao centro */
 }
+
 .sabrina div {
-    width: 300px;/*tamanho da caixa / div */
-    height: 300px;/*largura da caixa / div */
-    background-color: black;/*cor da caixa / div */
-    color: aliceblue;/*cor da fonte */
-    text-align: center;/*tornando os conteudo flex lado a lado */
-    padding: 15px;/*responssavel pelo preenchimento */
+    width: 300px;
+    /*tamanho da caixa / div */
+    height: 300px;
+    /*largura da caixa / div */
+    background-color: black;
+    /*cor da caixa / div */
+    color: aliceblue;
+    /*cor da fonte */
+    text-align: center;
+    /*tornando os conteudo flex lado a lado */
+    padding: 15px;
+    /*responssavel pelo preenchimento */
 
 }
+
 /*fim da quarta sessão */
 
 
 /*inicio da quinta sessão */
-.welton{
-    padding: 150px; /*responsavel pelo preenchimento*/
-    background: linear-gradient(354deg, rgba(0,115,74,1) 0%, rgba(62,193,47,1) 35%, rgb(5, 88, 61) 100%); /*cor de fundo */
-    display: flex; /*tornando os conteudo flex lado a lado */
-    justify-content: center;/*justifando os conteudo ao centro */
-    align-items: center;/*justifando os conteudo ao centro */
-    gap: 50px;/*espaços entre os itens */ color: aliceblue;
+.welton {
+    padding: 150px;
+    /*responsavel pelo preenchimento*/
+    background: linear-gradient(354deg, rgba(0, 115, 74, 1) 0%, rgba(62, 193, 47, 1) 35%, rgb(5, 88, 61) 100%);
+    /*cor de fundo */
+    display: flex;
+    /*tornando os conteudo flex lado a lado */
+    justify-content: center;
+    /*justifando os conteudo ao centro */
+    align-items: center;
+    /*justifando os conteudo ao centro */
+    gap: 50px;
+    /*espaços entre os itens */
+    color: aliceblue;
 }
 
 .welton iframe {
-    border-radius: 40px; /*borda do botão */
+    border-radius: 40px;
+    /*borda do botão */
     box-shadow: 10px 10px 20px black;
 }
-.welton p {
-font-size: 25px;/*tamanho da fonte */
-font-weight: 700;/*largura */
-    line-height: 25px; /*alinha texto*/
- }
 
-footer {
-    padding: 20px;/*responssavel pelo preenchimento */
-    background-color: #0d192b ;
-    text-align: center;/*tornando os conteudo flex lado a lado */
-    
+.welton p {
+    font-size: 25px;
+    /*tamanho da fonte */
+    font-weight: 700;
+    /*largura */
+    line-height: 25px;
+    /*alinha texto*/
 }
 
-footer img{
-   width: 30px;/*tamanho da imagem */
-   
+footer {
+    padding: 20px;
+    /*responssavel pelo preenchimento */
+    background-color: #0d192b;
+    text-align: center;
+    /*tornando os conteudo flex lado a lado */
+
+}
+
+footer img {
+    width: 30px;
+    /*tamanho da imagem */
+
 }
 
 footer p {
-    color: rgb(221, 230, 238);/*cor do texto*/
-    font-size: 25px;/*tamanho do texto */
+    color: rgb(221, 230, 238);
+    /*cor do texto*/
+    font-size: 25px;
+    /*tamanho do texto */
 }
+
 footer i {
-    color: white;/*cor do texto */
-    font-size: 40px;/*tamanho do texto*/
-  
-    
-=======
-.listra-menu ul li a {
-
-    text-decoration: none;
-    /*remoçao do sumbliado (decoração de texto )*/
-    color: rgb(207, 204, 4);
-    /*cor de texto */
-    font-size: 20px;
+    color: white;
+    /*cor do texto */
+    font-size: 40px;
     /*tamanho do texto*/
-}
-
-/* fim do cabeçaalho*/
-
-
-
-
-/*inicio da seção*/
-/*inicio da primeira sessão*/
-
-.arthur {
-    padding: 160px;
-    /*responsa pelo preenchimento */
-    background-color: #010a0c;
-    /*cor de fundo */
-    display: flex;
-    /*tornando os intens flex lado a lado */
-    justify-content: center;
-    /*justificando os conteudo ao centro */
-    align-items: center;
-    /*responsavel por alinha os itens */
-    gap: 60px;
-}
-
-.arthur img {
-    width: 400px;
-    /*largura da imagem*/
-    height: 300px;
-    /*autura da imagem*/
-}
-
-.arthur p {
-    color: rgb(217, 231, 240);
-    /*cor da letra */
-    font-size: 30px;
-    /*tamanho da letra */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*tipo da fonte */
-}
-
-.arthur span {
-    font-size: 50px;
-    /*tamanho da letra */
-    color: rgb(216, 219, 4);
-    /*cor da letra */
 
 
 }
 
 
 
-.teste02 {
-    width: 300px;
-    height: 300px;
->>>>>>> Stashed changes
-}
-
-
-
-<<<<<<< Updated upstream
-footer a {
+<<<<<<< Updated upstream footer a {
     color: aliceblue;
     text-decoration: none;
 }
@@ -330,57 +298,72 @@ footer a {
 
 footer a:hover {
     color: green;
-    transition: 0,8s;
+    transition: 0, 8s;
 }
+
 footer i:hover {
     color: green;
 }
+
 footer p:hover {
     color: green;
-    
- 
+
+
 }
 
 
 
 .div01 {
-    border-radius: 40px;/*borda da /div */
+    border-radius: 40px;
+    /*borda da /div */
     box-shadow: 10px 10px 20px black;
 
-    
-    
+
+
 }
+
 .div01 i {
     color: yellow;
 }
 
 .div02 {
-    background-image: url(img/projeto-casa-modera-Silvia-W-Abreu-02-300x300.webp);/*up img*/
-    background-size: cover;/*preenchimento da imagem */
-    border-radius: 40px;/*tamanho da borda / div */
+    background-image: url(img/projeto-casa-modera-Silvia-W-Abreu-02-300x300.webp);
+    /*up img*/
+    background-size: cover;
+    /*preenchimento da imagem */
+    border-radius: 40px;
+    /*tamanho da borda / div */
     box-shadow: 10px 10px 20px black;
 
 }
-.div03 img  {
-    width: 120px;/*tamanho da imagem */
-    height: 120px;/*largura da imagem*/
-     
-   
+
+.div03 img {
+    width: 120px;
+    /*tamanho da imagem */
+    height: 120px;
+    /*largura da imagem*/
+
+
 }
+
 .div03 p {
-    font-size: 20px;/*tamanho do paragrafo */
+    font-size: 20px;
+    /*tamanho do paragrafo */
 }
+
 .div03 {
-    border-radius: 40px; /*tamanho da borda / div*/
+    border-radius: 40px;
+    /*tamanho da borda / div*/
     box-shadow: 10px 10px 20px black;
-    
+
 
 }
+
 /*------------------------------------------------------------------------------------------*/
 
 /*Pagina 2*/
 
-.sessao-cabecalho{
+.sessao-cabecalho {
     background-image: url(img/fundopage2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -396,10 +379,10 @@ footer p:hover {
     justify-content: center;
     color: aliceblue;
     margin-bottom: 50PX;
-    
-   
+
+
 }
- 
+
 .imoveis {
     display: flex;
 }
@@ -409,13 +392,13 @@ footer p:hover {
     justify-content: center;
     flex-direction: column;
     padding: 130px;
-    background:  linear-gradient(354deg, rgb(2, 102, 65) 0%, rgb(11, 194, 145) 35%, rgb(3, 88, 60) 100%);
+    background: linear-gradient(354deg, rgb(2, 102, 65) 0%, rgb(11, 194, 145) 35%, rgb(3, 88, 60) 100%);
 }
 
 
 .img-caixa {
     width: 100px;
-    
+
 }
 
 .div-pai div {
@@ -423,14 +406,16 @@ footer p:hover {
     height: 400px;
     background-color: grey;
     border-radius: 15px;
-    box-shadow: 10px 10px 20px black;/*responssavel pela sombra da caixa ( 1 valor cuida da sombra lateral,
+    box-shadow: 10px 10px 20px black;
+    /*responssavel pela sombra da caixa ( 1 valor cuida da sombra lateral,
     2 valor da sombra inferior , 3 valor peso da cor da sombra )*/
 }
 
 
 
 
-.div-pai div:hover { /* */
+.div-pai div:hover {
+    /* */
     box-shadow: 20px 20px 30px black;
     transition: 0.8s;
 }
@@ -454,17 +439,12 @@ footer p:hover {
     justify-content: space-evenly;
     gap: 30px;
 }
-.div-pai div i {
-  
-}
+
+.div-pai div i {}
 
 .fa-star {
     color: rgb(228, 187, 5);
-} 
-   
-=======
-
-
+}
 
 .arthur a {
     text-decoration: none;
@@ -488,20 +468,22 @@ footer p:hover {
     gap: 30px;
     /*espaço entre os elementos */
     flex-direction: column;
-    flex-direction: column;/*deixando os itens flexivel*/
+    flex-direction: column;
+    /*deixando os itens flexivel*/
 
 }
 
 .manu i {
     font-size: 50px;
-    font-size: 50px; /*tamanho dos iconens*/
-    color: rgb(238, 195, 6);
+    font-size: 50px;
+    /*tamanho dos iconens*/
+    color: rgb(245, 243, 236);
     /*cor da letra */
 
 }
 
 .manu p {
-    color: rgb(219, 205, 9);
+    color: rgb(247, 246, 237);
     /*cor da letra */
     font-size: 30px;
     /*tamanho da letra */
@@ -510,14 +492,8 @@ footer p:hover {
 }
 
 /*fim da segunda sessão*/
->>>>>>> Stashed changes
+>>>>>>>Stashed changes <<<<<<< Updated upstream=======
 
-
-
-
-<<<<<<< Updated upstream
-
-=======
 /*inicio da terceira sessão*/
 .enzo {
     padding: 150px;
@@ -579,18 +555,23 @@ footer p:hover {
 
 
 .enzo button {
-    padding: 20px;  /*responssavel pelo preenchimento */
+    padding: 20px;
+    /*responssavel pelo preenchimento */
     width: 150px;
-    background-color: rgba(0, 9, 12, 0.993); /*cor de fundo das caixas */
-    color: rgb(243, 208, 9);/*cor da letra */
-    border-radius: 50px;/*borda do botao */
+    background-color: rgba(0, 9, 12, 0.993);
+    /*cor de fundo das caixas */
+    color: rgb(243, 208, 9);
+    /*cor da letra */
+    border-radius: 50px;
+    /*borda do botao */
 
 
 }
 
 
 footer {
-    padding: 20px;/*responssavel pelo preenchimento */
+    padding: 20px;
+    /*responssavel pelo preenchimento */
     background-color: black;
     /*cor de fundo */
     text-align: center;
@@ -598,7 +579,7 @@ footer {
 }
 
 footer p {
-    color: rgb(236, 221, 5);
+    color: rgb(245, 244, 234);
     /*cor da letra */
     font-size: 25px;
     /* tamanho da letra */
@@ -606,44 +587,54 @@ footer p {
 }
 
 footer i {
-    color: rgb(245, 229, 10);
+    color: rgb(245, 244, 234);
     /*cor do icone*/
     font-size: 20px;
     /*tamanho do icone*/
+
+}
+
+footer a {
+    list-style: none;
+    color: aqua;
+}
+
+.div01 i {
+    color: rgb(224, 228, 11);
+    /*cor do iconen */
+}
+
+.div01 p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.div02 {
+    /*estamos alterando a segunda caixa/div*/
+    background-image: url(img/300x300.jpg);
+    /*inserindo img*/
+    background-size: cover;
+    /*aplicando o preenchimento total */
+    
     
 }
 
- .div01 i {
-  color: rgb(224, 228, 11);/*cor do iconen */
- }
-
- .div01 p {
-font-size: 20px;
-font-weight: 700;
-line-height: 30px;
- }
-
-
- .div02 {/*estamos alterando a segunda caixa/div*/
-    background-image: url(img/Mortal_kombat_logo.png);/*inserindo img*/
-    background-size: cover;/*aplicando o preenchimento total */
- }
-
- .div03 img {
+.div03 img {
     width: 120px;
     height: 120px;
- }
+}
 
- .div03 p  {
+.div03 p {
     font-size: 20px;
     color: aliceblue;
     font-weight: 700;
     line-height: 25px;
 
- }
+}
 
 
 
 
- 
->>>>>>> Stashed changes
+

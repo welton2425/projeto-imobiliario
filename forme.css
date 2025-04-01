@@ -4,28 +4,24 @@ margin: 0;
 padding: 0;
 }
 
-body {
 
-    background: linear-gradient(354deg, rgb(2, 102, 65) 0%, rgb(11, 194, 145) 35%, rgb(3, 88, 60) 100%);
-
-}
 
 body {
-    background-color: cadetblue;
+    background-color: #5f925e;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 
 /* ESTILIZANDO A DIV QUE CONTÉM O FORMULÁRIO */
 .div-form {
-    background: #02703f;
+    background-color:  #02703f;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px black;
-    width: 300px;
+    width: 350px;
     height: 380px;
 }
 
@@ -41,6 +37,11 @@ label {
     color: white;
 }
 
+input:hover {
+    background-color: #bdc5bd;
+    transition: 0,9s;
+}
+
 /* input[type="email"], input[type="password"] {
     background-color: rgb(12, 171, 20);
 } */
@@ -50,11 +51,11 @@ label {
     margin-bottom: 15px; /*Espaçamento inferior dos input*/
     font-size: 16px; /*tamanho da letra*/
     border-radius: 5px; /*Bordas arredondadas*/
-    border: 2px solid #22fd05; /*Inserindo Bordas nos Input*/
+    border: 2px solid #2efd05; /*Inserindo Bordas nos Input*/
 }
 
 .btn-form {
-    background-color: #07b84e; /*cor de fundo do btn*/
+    background-color:  #0c4e0c; /*cor de fundo do btn*/
     color: white; /*cor da letra*/
     padding: 10px; /*Espaçamento interno*/
     border: none; /*bordar = nenhuma/sem borda*/
