@@ -222,6 +222,8 @@ header h1 {
 
 }
 
+
+
 /*fim da quarta sessão */
 
 
@@ -290,7 +292,7 @@ footer i {
 
 
 
-<<<<<<< Updated upstream footer a {
+ footer a {
     color: aliceblue;
     text-decoration: none;
 }
@@ -492,7 +494,7 @@ footer p:hover {
 }
 
 /*fim da segunda sessão*/
->>>>>>>Stashed changes <<<<<<< Updated upstream=======
+
 
 /*inicio da terceira sessão*/
 .enzo {
@@ -548,9 +550,8 @@ footer p:hover {
     text-align: center;
     /*estou alinhando o texto ao centro */
     padding: 15px;
-    /*margem interna das caixas */
+    /*margem interna das */
 }
-
 
 
 

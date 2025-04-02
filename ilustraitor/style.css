@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    background-color: rgb(192, 215, 235);
+    padding: 15px;
+    align-items: center;
+
+}
+
+header img {
+    width: 150px;
+    height: auto;
+
+}
+
+header button {
+    width: 150px;
+    padding: 3px;
+    border: none;
+    background-color: rgb(141, 148, 153);
+    color: white;
+
+}
+
+header button:hover {
+    background-color: rgb(120, 123, 126);
+    transition: 0,8s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.section-01 {
+    background: linear-gradient(354deg, rgba(3, 106, 223, 0.336) 0%, rgba(11, 194, 145, 0.13) 35%, rgba(3, 88, 60, 0.384) 100%),
+    url(imagem/roupa-homem-casual.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: center;
+
+
+    padding: 250px;
+
+ }
