@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
-    background-color: rgb(192, 215, 235);
+    background-color: rgb(103, 171, 231);
     padding: 15px;
     align-items: center;
 
@@ -23,7 +23,7 @@ header button {
     width: 150px;
     padding: 3px;
     border: none;
-    background-color: rgb(141, 148, 153);
+    background-color: rgb(8, 11, 14);
     color: white;
 
 }
@@ -35,7 +35,7 @@ header button:hover {
     border-radius: 5px;
 }
 .section-01 {
-    background: linear-gradient(354deg, rgba(3, 106, 223, 0.336) 0%, rgba(11, 194, 145, 0.13) 35%, rgba(3, 88, 60, 0.384) 100%),
+    background: linear-gradient(354deg, rgba(3, 106, 223, 0.486) 0%, rgba(11, 29, 194, 0.397) 35%, rgba(3, 11, 88, 0.493) 100%),
     url(imagem/roupa-homem-casual.webp);
     background-size: cover;
     background-repeat: no-repeat;
